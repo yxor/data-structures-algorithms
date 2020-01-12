@@ -1,11 +1,10 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include "list.h"
-#define private static;
 
 
 //// node related functions ////
-private Node* node_create(Item data)
+Node* node_create(Item data)
 {
     Node* node = (Node*) malloc(sizeof(Node));
 

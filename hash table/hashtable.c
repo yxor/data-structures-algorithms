@@ -92,6 +92,7 @@ bool ht_search(ht_t* ht, Item key)
             return true;
         temp = temp->next;
     }
+    return false;
 }
 
 
